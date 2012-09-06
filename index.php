@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>mWoW > home</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 	<style>
 		body {
 			padding-top: 60px;
@@ -11,7 +11,13 @@
   </head>
   <body>
 	<div class="navbar navbar-fixed-top">
-		<a class="brand" href="#">mWoW - A simple WoW Dungeon/raid DB</a>
+		<div class="navbar-inner">
+			<div class="row">
+				<div class="span6 offset10">
+					<a class="brand" href="#">mWoW - A simple WoW Dungeon/raid DB</a>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="container-fluid">
 		<div class="row-fluid">
