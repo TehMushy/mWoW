@@ -12,18 +12,22 @@
 	</style>
   </head>
   <body>
-	<div class="navbar navbar-fixed-top">
-	<div class="container">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="http://tehmushy.info/mwow">mWoW - A simple WoW Dungeon/raid DB</a>
+        </div>
+      </div>
+    </div>
+	<div class="navbar navbar-fixed-bottom">
 		<div class="navbar-inner">
-			<div class="row">
-				<div class="span12">
-					<div class="centered">
-						<a class="brand" href="#">mWoW - A simple WoW Dungeon/raid DB</a>
-					</div>
-				</div>
+			<div class="container">
+				<ul class="breadcrumb">
+					<li><a href="http://tehmushy.info/mwow">Home</a> <span class="divider">/</span></li>
+					<li class="active">gPage</li>
+				</ul>
 			</div>
 		</div>
-	</div>
 	</div>
 	<div class="container-fluid">
 		<div class="row-fluid">
@@ -44,7 +48,7 @@
 			</div>
 				<div class="span10">
 					<div class="page-header">
-						<h1>SausageFest guild<small><i> best WoW guild in the ENTIRE UNIVERSE&trade;</i></small></h1>
+						<h1>SausageFest guild<small><i> is the best WoW guild in the ENTIRE UNIVERSE&trade;</i></small></h1>
 					</div>
 					<div class="container">
 						<div class="well-large guild-logo">&hearts;</div>

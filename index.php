@@ -11,18 +11,22 @@
 	</style>
   </head>
   <body>
-	<div class="navbar navbar-fixed-top">
-	<div class="container">
+    <div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
-			<div class="row">
-				<div class="span12">
-					<div class="centered">
-						<a class="brand" href="#">mWoW - A simple WoW Dungeon/raid DB</a>
-					</div>
-				</div>
+			<div class="container">
+				<a class="brand" href="#">mWoW - A simple WoW Dungeon/raid DB</a>
 			</div>
 		</div>
-	</div>
+    </div>
+	<div class="navbar navbar-fixed-bottom">
+		<div class="navbar-inner">
+			<div class="container">
+				<ul class="breadcrumb">
+					<li class="active">Home</li>
+					<span class="divider">/</span></li>
+				</ul>
+			</div>
+		</div>
 	</div>
 	<div class="container-fluid">
 		<div class="row-fluid">
@@ -47,7 +51,9 @@
 					<li class="nav-header">Mists of Pandas</li>
 						<li><a href="#">Dungeons</a>
 						<li><a href="#">Raids</a>
+					<li class="nav-header">Challanges</li>
 						<li><a href="#">Scenarios</a>
+						<li><a href="#">Challange Dungeons</a>
 				</ul>
 			</div>
 			</div>
